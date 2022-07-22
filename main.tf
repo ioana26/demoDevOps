@@ -15,7 +15,7 @@ terraform {
 
 
 resource "google_compute_instance" "default" {
-  name         = "java-application"
+  name         = "java-application2"
   machine_type = "e2-medium"
   zone         = var.zone
 
